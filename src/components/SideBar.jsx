@@ -14,8 +14,7 @@ export function SideBar() {
       >
      
       </div>
-
-
+      
       <div
         className="absolute top-4 left-4 z-50 p-2 bg-white rounded-full shadow cursor-pointer"
         onClick={() => setSideBarOpen(!sideBarOpen)}
