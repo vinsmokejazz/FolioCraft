@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { SideBar } from './components/bars/SideBar'
-import { MainContent } from './components/bars/MainContent'
+import { SideBar } from './components/SideBar'
+import { MainContent } from './components/MainContent'
 
 function App() {
 
