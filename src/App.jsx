@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import { SideBar } from './components/bars/SideBar'
 import { MainContent } from './components/bars/MainContent'
-function App() {
 
-  const[sideBarOpen,setSideBarOpen]=useState(true);
+function App() {
 
   return <>
   <div className='flex'>
