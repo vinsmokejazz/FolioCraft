@@ -14,7 +14,7 @@ export function MainContent(){
       </div>
 
 
-    <div className="h-100 rounded-2xl shadow-2xl border-1 border-gray-200 md:mt-20 bg-gray-100 md:col-span-5  col-span-8 ">
+    <div className="h-105 rounded-2xl shadow-2xl border-1 border-gray-200 md:mt-20 bg-gray-100 md:col-span-5  col-span-8 ">
       <MainBar/>
     </div>
 
