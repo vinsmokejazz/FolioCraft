@@ -17,7 +17,7 @@ export const TopBox = () => {
 
       <div className="w-full text-center">
         <p className="text-xl md:text-2xl font-bold text-center truncate w-full">
-          SPIDY KUMAR
+          SPIDEY KUMAR
         </p>
         <p className="text-md md:text-base m-2 text-gray-500 text-center truncate w-full">
           freindyneighbour@gmail.com

@@ -28,7 +28,7 @@ export function MainContent() {
 
     <div className="relative top-1  left-20 md:relative md:top-23 md:left-90  ">
       <span>{currTime}</span>
-      <h1 className="text-2xl font-bold text-black">Good {wish}..SPIDY!</h1>
+      <h1 className="text-2xl font-bold text-black">Good {wish}..SPIDEY!</h1>
     </div>
 
     <div className="grid grid-cols-10 gap-8 p-7">
