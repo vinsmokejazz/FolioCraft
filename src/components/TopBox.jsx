@@ -47,7 +47,7 @@ export const MainBar = () => {
       <div className=" p-5">
         <div className="grid mt-2  grid-cols-5 p-1 gap-8 border-b border-gray-300  ">
           <div className=" col-span-1 md:p-5  md:border-r-1 mb-2 border-gray-300">
-            11:30 AM    
+            11:30 AM
           </div>
           <div className="col-span-4">
             <div className="p-2 flex text-md ">
@@ -106,37 +106,37 @@ export const LastBar = () => {
 
   return (
     <div className="grid grid-cols-2 gap-8 p-10 ml-8">
-  
-  <div className="flex flex-col  items-center">
-    <div className="flex flex-col  items-center mb-8">
-      <img 
-        className="w-20  bg-blue-300 rounded-2xl mb-2" 
-        src={CalenderIcon} 
-        alt="calendar" 
-      />
-      <label className="text-md font-medium text-center">Schedule & Webinar</label>
-    </div>
 
-    
-    <div className="flex flex-col items-center">
-      <img 
-        className="w-20 bg-blue-300 rounded-2xl mb-2" 
-        src={VideoIcon} 
-        alt="video" 
-      />
-      <label className="text-md truncate font-medium text-center">Open Recordings</label>
-    </div>
-  </div>
+      <div className="flex flex-col  items-center">
+        <div className="flex flex-col  items-center mb-8">
+          <img
+            className="w-20  bg-gray-300 rounded-2xl mb-2"
+            src={CalenderIcon}
+            alt="calendar"
+          />
+          <label className="text-md font-medium text-center">Schedule & Webinar</label>
+        </div>
 
-  <div className="flex flex-col items-center">
-    <img 
-      className="w-20 bg-blue-300 rounded-2xl mb-2" 
-      src={AddCircleIcon} 
-      alt="add-circle" 
-    />
-    <label className="text-md font-medium  text-center">Jobs & Webinar</label>
-  </div>
-</div>
+
+        <div className="flex flex-col items-center">
+          <img
+            className="w-20 bg-gray-300 rounded-2xl mb-2"
+            src={VideoIcon}
+            alt="video"
+          />
+          <label className="text-md truncate font-medium text-center">Open Recordings</label>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center">
+        <img
+          className="w-20 bg-gray-300 rounded-2xl mb-2"
+          src={AddCircleIcon}
+          alt="add-circle"
+        />
+        <label className="text-md font-medium  text-center">Jobs & Webinar</label>
+      </div>
+    </div>
   )
 
 }
